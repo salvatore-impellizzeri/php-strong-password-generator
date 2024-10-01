@@ -1,6 +1,5 @@
 <?php 
-
-    $passwordLenght = $_GET['passLength'] ?? null;
+    $passwordLenght = $_GET['passLength'];
 
     function generatorPass($length){
         $password = '';
