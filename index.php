@@ -21,7 +21,7 @@
         <div>
           Inserisci la lunghezza della password
         </div>
-        <input type="number" name="passLength" min="4" required>
+        <input type="number" name="passLength" min="4" max="16" required>
         <button type="submit">Invia</button>
       </form>
 
